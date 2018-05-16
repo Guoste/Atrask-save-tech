@@ -1,13 +1,14 @@
-/*#F6AC0D -orange
-#F3E803 - yellow
-#04C1E1 - light blue
-#75E4DE - lighter blue
-#D6EBB3 i light green */
+/*#F6FEFF - almost white
+#82C3D7 - light blue
+#B2B5BA - grey
+#F1DD6C - yellow
+#161325 - almost black */
 .main-slide {
-    background-color: #04C1E1;
-    color: #F3E803;
+    background-color: #82C3D7;
+    color: #F6FEFF;
     font-weight: bold;
     height: 650px;
+    font-family: 'Poiret One', cursive;
 }
 .main-slide .row {
 margin: auto;
@@ -29,10 +30,17 @@ margin: auto;
 }
 
 .atrask span:hover, .save span:hover, .tech span:hover {
-    color: #F6AC0D;
+    color: #B2B5BA;
     cursor: default;
 }
 
+.navbar {
+    font-size: 20px;
+}
+.left-side img {
+    margin-top: 60px;
+    max-height: 500px;
+}
 
 .left-text {
     margin: 50px 30px;
@@ -124,12 +132,4 @@ margin: auto;
 
 .animate span {
     display: inline-block;
-}
-
-.left-text img {
-    height: 150px;
-} 
-
-.cloud-2 {
-    margin-left: 70px;
 }
