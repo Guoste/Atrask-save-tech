@@ -3,19 +3,82 @@
 #B2B5BA - grey
 #F1DD6C - yellow
 #161325 - almost black */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-logo {
+    max-width: 200px;
+}
+.bg-light {
+    background-color: #06d6a0!important; 
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
 .main-slide {
-    background-color: #82C3D7;
+    background-color: #06d6a0;
+    color: #FFF;
+    height: 550px;
+    padding: 100px;
+}
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 110px;
+}
+.main-text {
+    font-size: 25px;
+margin-top: 40px;
+}
+.btn-arrow {
+padding: 10px 40px 5px 40px;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+.main-row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+padding: 60px;    
+}
+.main-right {
+    background-color: #06d6a0;
+}
+.main-right-text {
     color: #F6FEFF;
     font-weight: bold;
-    height: 650px;
+    font-size: 90px;
     font-family: 'Poiret One', cursive;
+    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
 }
+.main-left{
+    background-color: #06d6a0;
+}
+.main-left-text {
+    color: #161325;
+    font-size: 20px;
+    margin: 50px;
+}
+.second-right {
+    background-color: #F6FEFF;
+}
+.second-left {
+    background-color: #118ab2;
+}
+.third-right {
+    background-color: #06d6a0;
+}
+.third-left {
+    background-color: #F6FEFF;
+}
+
 .main-slide .row {
 margin: auto;
 }
-.main-text {
-    margin-top: 100px;
-}
+
 .atrask,.tech {
     margin-left: 80px;
     font-size: 100px;
@@ -36,10 +99,13 @@ margin: auto;
 
 .navbar {
     font-size: 20px;
+    color:#F6FEFF;
+    
 }
 .left-side img {
     margin-top: 60px;
     max-height: 500px;
+    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
 }
 
 .left-text {
