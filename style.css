@@ -95,6 +95,9 @@ color: #fff !important;
 .text-positions {
     margin-bottom: 30px;
 }
+.event-column {
+    padding: 40px;
+}
 .second-right {
     background-color: #F6FEFF;
 }
@@ -117,4 +120,19 @@ margin: auto;
 
 .embeded-event {
 margin: 20px;
+}
+
+.d-block {
+    margin: 0 auto;
+}
+.carousel-control-prev-icon {
+    background-image: url("back.svg");
+}
+.carousel-control-next-icon {
+    background-image: url("forward.svg");
+}
+footer {
+    background-color: #06d6a0;
+    color: #fff;
+    padding: 20px 30px;
 }
