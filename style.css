@@ -17,6 +17,14 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: #FFF;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFF;
+    margin-top: -2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FFF;
+}
 .navbar {
     font-size: 20px;
     color:#F6FEFF;
@@ -46,6 +54,7 @@ margin-right: auto;
 
 .icon {
     max-width:500px;
+    margin: auto;
 }
 
 .carousel-control-next .carousel-control-prev {
@@ -135,4 +144,17 @@ footer {
     background-color: #06d6a0;
     color: #fff;
     padding: 20px 30px;
+}
+.anchor {
+    display: block;
+    height: 90px; 
+    margin-top: -90px; 
+    visibility: hidden;
+}
+.text-events {
+    margin-bottom: 30px;
+}
+.center {
+    margin: auto;
+    width: 50%;
 }

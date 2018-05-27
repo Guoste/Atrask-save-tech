@@ -1,0 +1,25 @@
+.icon-pozicijos {
+    width: 350px;
+}
+.btn-outline-light {
+    width: 150px;
+    margin: 5px;
+    white-space: normal;
+    color: #fff !important;
+    border-color: #fff;
+}
+.btn-outline-light:hover {
+    color: #118ab2 !important;
+}
+
+.text-positions {
+    color: #fff;
+}
+.img-day{
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color:#118ab2;
+}
