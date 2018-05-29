@@ -6,9 +6,22 @@
 }
 footer {
     background-color:#118ab2;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px; 
 }
 .text-carousel {
     margin-bottom:30px;
     font-size: 25px;
     color: #118ab2;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+#body {
+    padding-bottom:100px; 
+    height:100%;
 }
