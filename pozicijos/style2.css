@@ -17,9 +17,17 @@
 }
 .img-day{
     max-width: 600px;
-    margin-top: 20px;
+    margin: 30px;
+    
 }
 
-footer {
-    background-color:#118ab2;
+h2 {
+    margin-bottom: 30px;
 }
+.third-right {
+    background-color: #118ab2;
+}
+.third-right {
+    padding: 40px;
+}
+
