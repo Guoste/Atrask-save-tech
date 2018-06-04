@@ -12,7 +12,7 @@ body {
     color: #118ab2 !important;
 }
 
-.positions-text {
+.follow-text {
     color: #fff;
     padding: 30px;
 }
@@ -23,26 +23,7 @@ h2 {
     padding: 20px;
     background-color: #06d6a0;
 }
-h3 {
-    margin-bottom: 20px;
-}
-.positions-main {
-    background-color: #fff;
-    width: 70%;
-    margin: auto;
-    padding: 50px;
-    margin-bottom: 20px;
-}
-.img-day {
-    max-width: 500px;
-    margin: 30px;
-}
+
 footer {
     border-top: 0.5px solid rgba(255,255,255,.7);
-}
-.positions-btn {
-    margin: auto;
-}
-.active {
-    color: #118ab2!important;
 }
