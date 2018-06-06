@@ -157,3 +157,10 @@ footer {
 .center {
     width: 50%;
 }
+
+.why-text {
+margin:10px;
+    font-size: 15px;
+border: 1px dotted #118ab2;
+padding: 10px;
+}

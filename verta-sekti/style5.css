@@ -1,17 +1,15 @@
 body {
     background-color: #06d6a0;
 }
-.btn-outline-light {
-    width: 150px;
-    margin: 5px;
-    white-space: normal;
+.btn-primary {
+background-color: #fff;
+border-color: #fff !important;
+color: #EE6352;
+}
+.btn-primary:hover {
+    background-color: #EE6352;
     color: #fff !important;
-    border-color: #fff;
 }
-.btn-outline-light:hover {
-    color: #118ab2 !important;
-}
-
 .follow-text {
     color: #fff;
     padding: 30px;
@@ -22,6 +20,18 @@ h2 {
     border: 0.5px solid rgba(255,255,255,.7);
     padding: 20px;
     background-color: #06d6a0;
+}
+.card {
+    margin: 20px;
+    border: none;
+    border: 0.5px solid rgba(255,255,255,.7);
+    background-color: #EE6352;
+    color: #fff;
+}
+.card-header {
+    border: 0.5px solid rgba(255,255,255,.7);
+    background-color: #EE6352;
+    color: #fff;
 }
 
 footer {
