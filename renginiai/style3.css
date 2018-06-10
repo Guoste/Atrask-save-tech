@@ -25,3 +25,23 @@ border:  0.5px solid rgba(255,255,255,.7);
 .tripple-row {
 margin: 10px;
 }
+
+@media screen and (max-width: 1220px) {
+    .tripple-column {
+        width: 100%;
+        }
+}
+@media screen and (max-width: 400px) {
+    .tripple-column {
+        margin: 0;
+        padding: 0;
+    }
+    .tripple-row {
+        margin:0;
+    }
+}
+@media screen and (max-width: 335px) {
+    .tripple-row {
+        margin-left: -10px;
+    }
+}

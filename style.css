@@ -3,7 +3,14 @@
 #B2B5BA - grey
 #F1DD6C - yellow
 #161325 - almost black */
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -56,32 +63,20 @@ margin-right: auto;
     max-width:500px;
     margin: auto;
 }
-
-.carousel-control-next .carousel-control-prev {
-    color: #118ab2;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
-    background-image: none;  
-}
-.main-row {
-    display: flex;
-}
 .column {
-    flex: 50%;
+    float: left;
+    width: 49.5%;
 padding: 60px;    
+}
+.main-row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .main-right {
     background-color: #06d6a0;
 }
-.main-right-text {
-    color: #F6FEFF;
-    font-weight: bold;
-    font-size: 90px;
-    font-family: 'Poiret One', cursive;
-    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
-}
+
 .main-left{
     background-color: #06d6a0;
 }
@@ -119,6 +114,9 @@ color: #fff !important;
 .third-left {
     background-color: #F6FEFF;
 }
+.responsive-third {
+    display: none;
+}
 
 .events {
     background-color: #06d6a0
@@ -133,12 +131,6 @@ margin: 20px;
 
 .d-block {
     margin: 0 auto;
-}
-.carousel-control-prev-icon {
-    background-image: url("back.svg");
-}
-.carousel-control-next-icon {
-    background-image: url("forward.svg");
 }
 footer {
     background-color: #06d6a0;
@@ -163,4 +155,47 @@ margin:10px;
     font-size: 15px;
 border: 1px dotted #118ab2;
 padding: 10px;
+}
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .column {
+        width: 100%;
+    }
+    .responsive-third {
+        display: block;
+    }
+    .main-third {
+        display:none;
+    }
+}
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+    }
+    .main-text{
+font-size: 18px;
+    } 
+}
+@media screen and (max-width: 550px) {
+    .main-text{
+        font-size: 16px;
+    } 
+    .main-slide {
+        padding: 50px;
+    }
+    .icon {
+        width: 300px;
+    }
+    .column {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .btn-arrow {
+        display:none;
+    }
 }
