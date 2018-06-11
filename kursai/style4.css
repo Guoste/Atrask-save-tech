@@ -4,6 +4,8 @@
 }
 .card {
     margin:20px;
+    min-width: 250px;
+    max-width: 350px;
 }
 footer {
     border-top: 0.5px solid rgba(255,255,255,.7);
@@ -34,4 +36,19 @@ h2 {
 .udacity-logo {
     margin-top:20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .all-cards {
+        padding: 10px;
+    }
+    .card {
+        margin:5px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .card {
+        max-width: 500px;
+    }
 }

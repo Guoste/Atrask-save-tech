@@ -3,11 +3,13 @@ body {
 }
 .btn-primary {
 background-color: #fff;
-border-color: #fff !important;
-color: #06d6a0;
+border: none !important;
+color: #118ab2;
+margin: 5px;
+white-space: normal;
 }
 .btn-primary:hover {
-    background-color: #EE6352;
+    background-color: #118ab2;
     color: #fff !important;
 }
 .follow-text {
@@ -28,10 +30,12 @@ h2 {
     color: #fff;
     background-color: #06d6a0;
 }
-.card-header {
+.card-img-top {
     border: 0.5px solid rgba(255,255,255,.7);
-    background-color: #EE6352;
-    color: #fff;
+    padding: 10px;
+}
+.all-cards {
+    margin: 30px;
 }
 
 footer {
