@@ -27,20 +27,14 @@ h2 {
     background-color: #06d6a0;
 }
 .positions-main {
-    background-color: #06d6a0;
+    background-color: #fff;
     width: 80%;
     margin: auto;
-    padding: 50px;
+    padding: 60px;
     margin-bottom: 20px;
     text-align: justify;
-    color: #fff;
-    border: 0.5px solid rgba(255,255,255,.7);
-}
-.img-day {
-    width: 450px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    float: right;
+    color: #118ab2;
+    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
 }
 footer {
     border-top: 0.5px solid rgba(255,255,255,.7);
@@ -51,55 +45,59 @@ footer {
 .active {
     color: #118ab2!important;
 }
-.top-text {
-   margin-top: 10px;
-   color: #000;
-}
 .lists{
     list-style: none;
 }
 .lists li:before {
     content: '- ';
 }
-
-.white-background {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
+img {
+    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
+    width: 500px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+.positions-main div {
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1125px) {
     .positions-main {
         width: 95%;
     }
-    .img-day {
-        float: none;
-        margin-bottom: 20px;
+    img {
+        width: 450px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 790px) {
     .positions-main {
         padding: 20px;
     }
-}
-@media screen and (max-width: 560px) {
-    .img-day {
-        width: 300px
+    img {
+        float:none;
+        margin: 20px auto;
+        display: block;
     }
 }
-@media screen and (max-width: 400px) {
-    .img-day {
-        width: 300px
-    }
-    .positions-main {
-        padding: 5px;
-    }
+@media screen and (max-width: 500px) {
+   img {
+       width: 380px;
+   }
+   .positions-main {
+       padding: 15px;
+   }
 }
-@media screen and (max-width: 370px) {
-    .positions-main {
-        width: 100%;
-    }
-        .img-day {
+
+@media screen and (max-width: 430px) {
+    img {
+            width: 320px
+        }
+}
+@media screen and (max-width: 365px) {
+    img {
             width: 280px
+        }
+        .positions-main {
+            padding: 8px;
         }
 }

@@ -37,6 +37,16 @@ h2 {
     margin-top:20px;
     margin-bottom: 20px;
 }
+.dataquest {
+ margin: 67px 0;
+}
+.linkedin {
+    padding: 80px;
+}
+.card-deck {
+    max-width: 1300px;
+    margin: auto;
+}
 
 @media screen and (max-width: 700px) {
     .all-cards {
