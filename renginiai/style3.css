@@ -25,6 +25,9 @@ border:  0.5px solid rgba(255,255,255,.7);
 .tripple-row {
 margin: 10px;
 }
+.capture {
+    width: 350px;
+}
 
 @media screen and (max-width: 1220px) {
     .tripple-column {

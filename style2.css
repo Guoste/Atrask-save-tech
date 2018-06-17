@@ -18,6 +18,7 @@ body {
 }
 h3 {
     margin-bottom: 30px;
+    color: #fff;
 }
 h2 {
     font-size: 22px;
@@ -26,19 +27,16 @@ h2 {
     padding: 20px;
     background-color: #06d6a0;
 }
-.positions-main {
-    background-color: #fff;
-    width: 80%;
-    margin: auto;
-    padding: 60px;
+.white-text {
+    color: #fff;
+}
+.margin-bottom {
     margin-bottom: 20px;
-    text-align: justify;
-    color: #118ab2;
-    -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
 }
-footer {
-    border-top: 0.5px solid rgba(255,255,255,.7);
+.third-right {
+    background-color: #118ab2;
 }
+
 .positions-btn {
     margin: auto;
 }
@@ -53,38 +51,39 @@ footer {
 }
 img {
     -webkit-filter: drop-shadow(-2px 2px 3px rgba(0,0,0,0.3));
-    width: 500px;
-    float: right;
-    margin: 0 0 20px 20px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
 }
-.positions-main div {
-    margin-bottom: 20px;
+.anchor {
+    height: 500px; 
+    margin-top: -500px;
 }
 
+
 @media screen and (max-width: 1125px) {
-    .positions-main {
-        width: 95%;
-    }
     img {
         width: 450px;
     }
 }
-@media screen and (max-width: 790px) {
-    .positions-main {
-        padding: 20px;
+@media screen and (max-width: 992px) {
+    .third-left {
+        background-color: #118ab2;
+        color: #fff;
     }
-    img {
-        float:none;
-        margin: 20px auto;
-        display: block;
+    .third-right {
+        background-color: #fff;
+        color: #000;
     }
 }
+@media screen and (max-width: 540px) {
+    .anchor {
+        height: 100px; 
+        margin-top: -100px;
+    }
 @media screen and (max-width: 500px) {
    img {
        width: 380px;
-   }
-   .positions-main {
-       padding: 15px;
    }
 }
 
@@ -97,7 +96,4 @@ img {
     img {
             width: 280px
         }
-        .positions-main {
-            padding: 8px;
-        }
-}
+    }

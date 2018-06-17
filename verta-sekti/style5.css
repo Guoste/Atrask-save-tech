@@ -29,10 +29,12 @@ h2 {
     border: 0.5px solid rgba(255,255,255,.7);
     color: #fff;
     background-color: #06d6a0;
+   
 }
 .card-img-top {
     border: 0.5px solid rgba(255,255,255,.7);
     padding: 10px;
+    background-color: #fff;
 }
 .all-cards {
     margin: 30px;
